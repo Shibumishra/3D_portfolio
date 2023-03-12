@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    angular,
+    theFastWay,
+    nirmitee,
+    sureShield
   } from "../assets";
   
   export const navLinks = [
@@ -50,12 +54,12 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "React.Js & Angular Developer",
+      icon: creator,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Backend Developer",
+      icon: backend,
     },
   ];
   
@@ -89,16 +93,16 @@ import {
       icon: tailwind,
     },
     {
+      name: "Angular",
+      icon: angular,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -108,19 +112,15 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      company_name: "The Fast Way",
+      icon: theFastWay,
+      iconBg: "#edd194",
+      date: "Feb 2021 - Mar 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +129,28 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Application Developer",
+      company_name: "Nirmitee.io",
+      icon: nirmitee,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Apr 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Created and maintained code for the website (re-designs,fixing issues, and feature updates",
+        "Led troubleshooting, fixed bugs, and other issues, and updated the site throughout the production cycle.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked to take client wireframes from conception toimplementation under the direction of the project manager and development team",
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      company_name: "https://sure-shield.com/",
+      icon: sureShield,
+      iconBg: "#201e19",
+      date: "Sep 2022 - Present ",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Identify the requirement and create the functional and design documents for the web-based application",
+        "Provide design recommendations for the development of new code, Analysis and development of custom applications",
+        "Leading healthcare, finance, defense, manufacturing, and other industries, as well as Managed Service Providers focused on IT risk, security and compliance. SureShield’s solutions uniquely integrate data across various compliance and security environments to provide a comprehensive risk management profile",
       ],
     },
   ];

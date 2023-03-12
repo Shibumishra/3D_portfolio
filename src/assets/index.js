@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import angular from "./angular.webp";
+import theFastWay from './thefastway.png';
+import nirmitee from './nirmitee.png'
+import sureShield from './sure-shield.png'
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  angular,
+  theFastWay,
+  nirmitee,
+  sureShield
 };
